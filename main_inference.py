@@ -19,7 +19,7 @@ def parse_args() -> Namespace:
 
     args = args.parse_args()
     args.device = torch.device(f"cuda:{args.device_id}")
-    args.data_filename = f"./data/{args.datset_name}/1_gen/dev.Q.json"
+    args.data_filename = f"./data/{args.dataset_name}/1_gen/dev.Q.json"
     args.G_filename = f"./data/{args.dataset_name}/1_gen/dev.G.pkl"
 
     return args
