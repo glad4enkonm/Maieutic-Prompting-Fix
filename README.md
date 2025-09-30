@@ -1,7 +1,7 @@
 # Maieutic Prompting
 
-This is a **fork of the official code repository** for our paper **Maieutic Prompting: Logically Consistent Reasoning with Recursive Explanations**.
-It **conatins minor fixes that allow to run the provided code**.
+This is a **fork of the official code repository** for our paper Maieutic Prompting: Logically Consistent Reasoning with Recursive Explanation.
+It conatins **minor fixes that allow to run the provided code**.
 
 ## Requirements
 ```shell
