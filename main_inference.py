@@ -7,7 +7,9 @@ from tqdm import tqdm
 from transformers import RobertaForSequenceClassification, AutoTokenizer
 
 from inference.inference import InferenceWrapper
-from inference.nli import NLIModel
+from inference.verifier import NLIModel
+
+
 
 
 def parse_args() -> Namespace:
